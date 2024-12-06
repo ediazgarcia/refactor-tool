@@ -1,0 +1,87 @@
+# Binarios para programas y plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Archivos binarios específicos de Go
+bin/
+pkg/
+
+# Directorio de dependencias
+vendor/
+
+# Archivos de caché de Go
+*.o
+*.a
+_obj
+_test
+_testmain.go
+
+# Archivos de prueba
+test.go
+*.test
+coverage.txt
+coverage.html
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+tmp/
+temp/
+
+# Directorios de build
+build/
+dist/
+release/
+
+# Archivos de depuración
+debug
+
+# Archivos de configuración específicos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias y caché
+go.work
+.go/
+
+# Archivos generados
+*.pb.go
+*.generated.go
+
+# Certificados
+*.pem
+*.crt
+*.key
+
+# Directorios de herramientas de desarrollo
+.vagrant/
+.terraform/
+node_modules/
+
+# Archivos de respaldo
+*.bak
+*.backup
+*~
+
+# Archivos específicos del proyecto (personalizar según necesidades)
+config.local.yaml
+credentials.json
